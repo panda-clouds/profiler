@@ -1,0 +1,29 @@
+{
+  "devDependencies": {
+    "eslint": "^4.18.1",
+    "eslint-plugin-jasmine": "^2.10.1",
+    "jasmine": "^3.1.0"
+  },
+  "dependencies": {},
+  "scripts": {
+    "pretest": "eslint .",
+    "test": "jasmine ./spec/*.spec.js"
+  },
+  "name": "@panda-clouds/profiler",
+  "description": "A js class for measuring time commands take",
+  "version": "1.0.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/panda-clouds/profiler.git"
+  },
+  "author": {
+    "name": "Marc Smith",
+    "email": "mr.marcsmith@me.com",
+    "url": "https://github.com/mrmarcsmith"
+  },
+  "license": "MIT",
+  "main": "src/PCProfiler.js",
+  "engines": {
+    "node": ">= 8"
+  }
+}
